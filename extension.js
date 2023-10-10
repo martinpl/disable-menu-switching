@@ -1,6 +1,7 @@
-const Main = imports.ui.main;
+import { Extension } from 'resource:///org/gnome/shell/extensions/extension.js';
+import * as Main from 'resource:///org/gnome/shell/ui/main.js';
 
-class Extension 
+export default class DisableMenuSwitchingExtension extends Extension
 {
 	enable() {
 		this._oldChangeMenu = Main.panel.menuManager._changeMenu;
@@ -11,8 +12,4 @@ class Extension
 		Main.panel.menuManager._changeMenu = this._oldChangeMenu;
 		this._oldChangeMenu = null;
 	}
-}
-
-function init() {
-	return new Extension();
 }
