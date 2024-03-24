@@ -1,8 +1,8 @@
 {
-	"shell-version": ["45"],
-	"uuid": "disable-menu-switching@selfmade.pl",
-	"url": "https://github.com/MartinPL/Disable-Menu-Switching",
-	"version": "8",
-	"name": "Disable Menu Switching",
-	"description": "Disable changing menu on hover another panel button."
+    "shell-version": ["46"],
+    "uuid": "disable-menu-switching@selfmade.pl",
+    "url": "https://github.com/MartinPL/Disable-Menu-Switching",
+    "version": "9",
+    "name": "Disable Menu Switching",
+    "description": "Disable changing menu on hover another panel button."
 }
